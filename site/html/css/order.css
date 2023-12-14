@@ -1,0 +1,223 @@
+/* roboto-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v30-cyrillic_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: #1C1C1C;
+  
+  
+}
+
+.wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+  background-color: #000000;
+  
+ 
+  width: 100%;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 118px;
+}
+
+.header-item {
+  margin-right: 200px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
+}
+
+.header-link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999;
+}
+
+.header-link:hover, .header-link:focus, .header-link:active {
+  opacity: .75;
+}
+
+.profile:hover, .profile:focus, .profile:active {
+  opacity: .75;
+}
+
+.profile {
+  background-color: #000000;
+  border: none;
+}
+
+.main {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.main-flex {
+  width: 759px;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+
+.main-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  background-color: #3E3E3E;
+  border: none;
+  height: 51px;
+  width: 759px;
+  margin-bottom: 25px;
+  color: #9F9F9F;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  padding: 17px 35px;
+}
+
+.input-field:last-child {
+  margin-bottom: 0;
+}
+
+.pay-method {
+  display: flex;
+  margin-top: 64px;
+  margin-bottom: 11px;
+  
+}
+
+.main-radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-label {
+  background-color: #3E3E3E;
+  border: none;
+  height: 51px;
+  width: 759px;
+  margin-bottom: 25px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 17px 35px;
+}
+
+.main-label-input {
+  margin-right: 25px;
+}
+
+.main-btn {
+  display: flex;
+  width: 218px;
+  height: 68px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background: #3E3E3E;
+  border: none;
+  margin-top: 60px;
+  
+
+}
+
+.main-btn-text {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.agreement {
+  color: #9C9C9C;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.main-btn:hover, .main-btn:focus, .main-btn:active{
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+  opacity: .80;
+}

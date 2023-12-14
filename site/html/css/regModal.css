@@ -1,0 +1,198 @@
+/* roboto-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v30-cyrillic_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  background-color: #131313;
+}
+.wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #000000;
+  
+ 
+  width: 100%;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 118px;
+}
+
+.header-item {
+  margin-right: 200px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
+}
+
+.header-link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999;
+}
+
+.header-link:hover, .header-link:focus, .header-link:active {
+  opacity: .75;
+}
+
+.profile:hover, .profile:focus, .profile:active {
+  opacity: .75;
+}
+
+.profile {
+  background-color: #000000;
+  border: none;
+}
+
+.main {
+  width: 350px;
+  height: 474px;
+  border-radius: 15px;
+  background-color: #131313;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-text {
+  color: #9F9F9F;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main-input {
+  width: 320px;
+  height: 50px;
+  background-color: #3E3E3E;
+  border-radius: 5px;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  color: #9F9F9F;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.main-input:last-child {
+  margin-bottom: 0;
+}
+
+.main-input-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  width: 218px;
+  height: 68px;
+  border-radius: 7px;
+  background-color: #3E3E3E;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-btn-text {
+  color: #9F9F9F;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main-link {
+  color: #9F9F9F;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-top: 30px;
+}
+
+.main-link:hover, .main-link:focus, .main-link:active {
+  opacity: .75;
+}
+
+.main-btn:hover, .main-btn:focus, .main-btn:active {
+  opacity: .75;
+}

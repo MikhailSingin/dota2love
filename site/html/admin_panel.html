@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/admin_panel.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-wrapper">
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-item">
+                <a href="./index.html" class="header-link">DOTALOVE</a>
+              </li>
+              <li class="header-item">
+                <a href="./catalog.html" class="header-link">КАТАЛОГ</a>
+              </li>
+              <li class="header-item">
+                <a href="./services.html" class="header-link">УСЛУГИ</a>
+              </li>
+              <li class="header-item">
+                <a href="./about_company.html" class="header-link">О КОМПАНИИ</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <button class="profile" id="profile">
+            <img class="profile-child" alt="" src="./img/profile.svg">
+          </button>
+  
+        </div>
+      </div>
+    </header>
+    <form id="admin_panelForm">
+      <main class="main">
+        <div class="main-flex">
+          <div class="main-text">ДОБАВИТЬ ЗАКАЗ</div>
+          <div class="main-input-block">
+            <input type="text" id="titleInput" class="main-input" placeholder="Название">
+            <input type="text" id="descriptionInput" class="main-input" placeholder="Описание">
+            <input type="text" id="priceInput" class="main-input" placeholder="Цена">
+            <input type="text" id="price_per_monthInput" class="main-input" placeholder="Цена/мес">
+          </div>
+        </div>
+        <div class="main-flex">
+          <button class="main-btn" id="">
+            <div class="main-btn-text">ДОБАВИТЬ</div>
+          </button>
+        </div>
+      </main>
+    </form>
+    
+    <script src="profile.js"></script>
+    <script src="admin_panel.js"></script>
+  </body>
+</html>

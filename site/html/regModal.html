@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/regModal.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-wrapper">
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-item">
+                <a href="./index.html" class="header-link">DOTALOVE</a>
+              </li>
+              <li class="header-item">
+                <a href="./catalog.html" class="header-link">КАТАЛОГ</a>
+              </li>
+              <li class="header-item">
+                <a href="./services.html" class="header-link">УСЛУГИ</a>
+              </li>
+              <li class="header-item">
+                <a href="./about_company.html" class="header-link">О КОМПАНИИ</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <button class="profile" id="profile">
+            <img class="profile-child" alt="" src="./img/profile.svg">
+          </button>
+  
+        </div>
+      </div>
+    </header>
+    <form id="registerForm">
+      <main class="main">
+        <div class="main-text">РЕГИСТРАЦИЯ</div>
+        <div class="main-input-block">
+          <input type="text" id="loginInput" class="main-input" placeholder="Логин">
+          <input type="text" id="emailInput" class="main-input" placeholder="Email">
+          <input type="password" id="passwordInput" class="main-input" placeholder="Пароль">
+          <input type="password" id="confirmpasswordInput" class="main-input" placeholder="Подтверждение пароля">
+        </div>
+        <button class="main-btn">
+          <div class="main-btn-text">ЗАРЕГИСТРИРОВАТЬСЯ</div>
+        </button>
+        <a href="./authModal.html" class="main-link">Есть аккаунт? Вход</a>
+      </main>
+    </form>
+
+    <!-- Ваш HTML код для формы регистрации -->
+
+    <script src="regModal.js"></script>
+    <script src="profile.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/order.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-wrapper">
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-item">
+                <a href="./index.html" class="header-link">DOTALOVE</a>
+              </li>
+              <li class="header-item">
+                <a href="./catalog.html" class="header-link">КАТАЛОГ</a>
+              </li>
+              <li class="header-item">
+                <a href="./services.html" class="header-link">УСЛУГИ</a>
+              </li>
+              <li class="header-item">
+                <a href="./about_company.html" class="header-link">О КОМПАНИИ</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <button class="profile" id="profile">
+            <img class="profile-child" alt="" src="./img/profile.svg">
+          </button>
+  
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main-flex">
+        <div class="main-input">
+          <input type="text" class="input-field" placeholder="Имя, Фамилия *">
+          <input type="text" class="input-field" placeholder="Email *">
+          <input type="text" class="input-field" placeholder="Номер телефона *">
+          <input type="text" class="input-field" placeholder="Адрес доставки (город, улица, дом и т.д.) *">
+        </div>
+
+      
+        <div class="pay-method">
+          <div class="pay-method-text">Метод оплаты</div>
+        </div>
+
+        <div class="main-radio">
+          <label class="main-label"><input type="radio" class="main-label-input" name="radio" value="1">По счету (для физлица)</label>
+          <label class="main-label"><input type="radio" class="main-label-input" name="radio" value="2">Банковская карта</label>
+          <label class="main-label"><input type="radio" class="main-label-input" name="radio" value="3">По счету (для физлица)</label>
+          <label class="main-label"><input type="radio" class="main-label-input" name="radio" value="4">Банковская карта</label>
+        </div>
+      </div>
+      <button class="main-btn">
+        <div class="main-btn-text">ОФОРМИТЬ ЗАКАЗ</div>
+      </button>
+      <div class="agreement">Нажимая кнопку «Оформить заказ» Вы даете свое согласие на обработку персональных<br> данных, а также подтверждаете ознакомление и согласие с договором офертой и<br> положением о конфиденциальности и защите персональных данных.</div>
+    </main>
+    <script src="profile.js"></script>
+  </body>
+</html>

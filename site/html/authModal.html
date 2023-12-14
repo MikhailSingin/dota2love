@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/authModal.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-wrapper">
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-item">
+                <a href="./index.html" class="header-link">DOTALOVE</a>
+              </li>
+              <li class="header-item">
+                <a href="./catalog.html" class="header-link">КАТАЛОГ</a>
+              </li>
+              <li class="header-item">
+                <a href="./services.html" class="header-link">УСЛУГИ</a>
+              </li>
+              <li class="header-item">
+                <a href="./about_company.html" class="header-link">О КОМПАНИИ</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <button class="profile" id="profile">
+            <img class="profile-child" alt="" src="./img/profile.svg">
+          </button>
+  
+        </div>
+      </div>
+    </header>
+    <form id="loginForm">
+      <main class="main">
+        <div class="main-flex">
+          <div class="main-text">АВТОРИЗАЦИЯ</div>
+          <div class="main-input-block">
+            <input type="text" id="loginInput" class="main-input" placeholder="Логин">
+            <input type="password" id="passwordInput" class="main-input" placeholder="Пароль">
+          </div>
+        </div>
+          <a href="" class="forgot">Забыли пароль?</a>
+        <div class="main-flex">
+          <button class="main-btn">
+            <div class="main-btn-text">ВОЙТИ</div>
+          </button>
+          <a href="./regModal.html" class="main-link">Нет аккаунта? Зарегистрироваться</a>
+        </div>
+      </main>
+    </form>
+    <script src="authModal.js"></script>
+    <script src="profile.js"></script>
+    
+  </body>
+</html>
